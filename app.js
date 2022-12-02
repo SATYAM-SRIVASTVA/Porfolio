@@ -34,6 +34,14 @@ for (let i = 0; i < headerSmallMenuLinks.length; i++) {
 const headerLogoConatiner = document.querySelector('.header__logo-container')
 
 headerLogoConatiner.addEventListener('click', () => {
-  location.href = '/'
+  location.href = 'index.html'
 })
 ;
+const sheetUrl ="https://script.google.com/macros/s/AKfycbwMRLaxa2VJEgIjlY4bSDop63DfYsn095Tla0SqmgRtlY9psSDoo6B2M4QbqSE9zY8/exec"
+const form=document.forms['form-name']
+form.addEventListener("#contactSubmit",e=>{
+   e.preventDefault()
+   fetch(sheetUrl,{method:'POST',body:new FormData(form)})
+   .then(response=>alert("Thanks for contacting us..We will contact you soon"))
+   .catch(error=>console.error('Error!',error.message))
+})

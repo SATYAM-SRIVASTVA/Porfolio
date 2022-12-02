@@ -226,7 +226,7 @@ textarea {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: #fff;
+  background: #facf0f;
   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
   padding: 0.5rem;
 }
@@ -631,6 +631,8 @@ textarea {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 5rem;
+  background-color: #000;
+  color: white;
 }
 @media only screen and (max-width: 56.25em) {
   .header__content {
@@ -641,7 +643,7 @@ textarea {
   display: flex;
   align-items: center;
   cursor: pointer;
-  color: #333;
+  color: rgb(51, 51, 51);
   transition: color 0.3s;
 }
 .header__logo-container:hover {
@@ -676,6 +678,10 @@ textarea {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
+  color: #facf0f;
+}
+.header__logo-sub:hover{
+  color: #333;
 }
 .header__links {
   display: flex;
@@ -689,14 +695,14 @@ textarea {
   padding: 2.2rem 3rem;
   display: inline-block;
   font-size: 1.6rem;
-  color: #333;
+  color: #facf0f;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
   transition: color 0.3s;
 }
 .header__link:hover {
-  color: #facf0f;
+  color: #494949;
 }
 @media only screen and (max-width: 56.25em) {
   .header__link {
