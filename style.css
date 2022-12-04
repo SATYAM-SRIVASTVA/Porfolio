@@ -206,7 +206,7 @@ textarea {
   color: #fff;
   background: linear-gradient(
       to right,
-      rgba(245, 245, 245, 0.8),
+      rgb(255 125 125 / 80%),
       rgba(245, 245, 245, 0.8)
     ),
     url(https://drive.google.com/file/d/1khFfWqN64EbjyzpoHJkUMsyYCNdYu-yh/view?usp=share_link);
@@ -290,7 +290,7 @@ textarea {
   text-align: center;
 }
 .about {
-  background: #fafafa;
+  background: #ffffff;
 }
 .about__content {
   display: grid;
@@ -400,7 +400,7 @@ textarea {
 .contact {
   background: linear-gradient(
       to right,
-      rgba(245, 245, 245, 0.8),
+      rgb(255 125 125 / 80%),
       rgba(245, 245, 245, 0.8)
     ),
     url(https://drive.google.com/file/d/1khFfWqN64EbjyzpoHJkUMsyYCNdYu-yh/view?usp=share_link);
@@ -680,7 +680,7 @@ textarea {
   letter-spacing: 1px;
   color: #facf0f;
 }
-.header__logo-sub:hover{
+.header__logo-sub:hover {
   color: #333;
 }
 .header__links {
